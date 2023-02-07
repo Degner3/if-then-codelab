@@ -12,9 +12,12 @@ const myAnsverInput = document.getElementById('answerOne');
 const myAnsverButton = document.getElementById('answerButton');
 const myAnsverFeedbackElement = document.getElementById('answerFeedback');
 
-myAnsverButton.addEventListener('click', () => {
-
+myAnsverButton.addEventListener('click', (e) => {
+  
     /* din kode her.  husk at skrive view funktion der viser om svaret er korrekt i myAnsverFeedbackElement, brug evt. innerHTML*/
+    e.preventDefault();
+
+    
 
 });
 

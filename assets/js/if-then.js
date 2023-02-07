@@ -7,34 +7,67 @@ const D = 10;
 const E = 40;
 
 // Opgave 1: skriv et expression der viser true når A er lig med B.
-
-if ( /*..dit expression Her*/ ) {
+/*
+if ( ..dit expression Her ) {
     console.log('statement true!');
+}
+*/
+
+if (A == B) {
+    console.log('True A=B');
+}
+else {
+    console.log('False');
 }
 
 
 //opgave 2: skrive en If then statement der vurderer om A er større end B.
 
-
+if (A > B) {
+    console.log('True A>B');
+}
+else {
+    console.log('False');
+}
 
 
 //opgave 3: Skriv en If then statement der vurderer om A er mindre end eller lig med B
 
-
+if (A <= B) {
+    console.log('True A<=B');
+}
+else {
+    console.log('False');
+}
 
 
 
 //opgave 4: Skriv en If then statement der bliver FALSE når du sammenligner B og C.
 
-
+if (B === C) {
+    console.log('True B=C');
+}
+else {
+    console.log('False');
+}
 
 
 
 //opgave 5: Skriv en If then statement der bliver TRUE når du sammenligner B og C.
 
-
+if (B == C) {
+    console.log('True B=C');
+}
+else {
+    console.log('False');
+}
 
 
 //opgave 6: Skriv en If then statement der sammenligner B = C og E = A hvis B=C skal den blive TRUE. 
 
-
+if (B == C || E == A) {
+    console.log('True');
+}
+else {
+    console.log('False');
+}
